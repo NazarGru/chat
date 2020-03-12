@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import {Route , BrowserRouter as Router} from 'react-router-dom';
+import {Route , HashRouter as Router} from 'react-router-dom';
 import LoginComponent from './Login/Login';
 import SignupComponent from './Singup/Singup';
 import DashboardComponent from './Dashbord/Dashbord';
